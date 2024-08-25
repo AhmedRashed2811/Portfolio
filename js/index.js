@@ -31,7 +31,7 @@ icons.addEventListener('click', function (e) {
 
 // Skills
 let mySkills = [
-    { icon: '<i class="fa-solid fa-database fa-bounce fa-2x ms-2 me-3 SQL"></i>', name: 'SQL' },
+    { icon: '<i class="fa-solid fa-database fa-spin fa-2x ms-2 me-3 SQL"></i>', name: 'SQL' },
     { icon: '<i class="fa-brands fa-python fa-spin fa-2x ms-2 me-3 PYTHON"></i>', name: 'PYTHON' },
     { icon: '<i class="fa-solid fa-file-excel fa-spin fa-2x ms-2 me-3 EXCEL"></i>', name: 'EXCEL' },
     { icon: '<i class="fa-solid fa-chart-bar fa-spin fa-2x ms-2 me-3 POWERBI"></i>', name: 'MICROSOFT POWERBI' },
