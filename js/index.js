@@ -31,11 +31,11 @@ icons.addEventListener('click', function (e) {
 
 // Skills
 let mySkills = [
-    { icon: '<i class="fa-solid fa-database fa-spin fa-2x ms-2 me-3 SQL"></i>', name: 'SQL' },
+    { icon: '<i class="fa-solid fa-database fa-bounce fa-2x ms-2 me-3 SQL"></i>', name: 'SQL' },
     { icon: '<i class="fa-brands fa-python fa-spin fa-2x ms-2 me-3 PYTHON"></i>', name: 'PYTHON' },
-    { icon: '<i class="fa-solid fa-file-excel fa-spin fa-2x ms-2 me-3 EXCEL"></i>', name: 'EXCEL' },
-    { icon: '<i class="fa-solid fa-chart-bar fa-spin fa-2x ms-2 me-3 POWERBI"></i>', name: 'MICROSOFT POWERBI' },
-    { icon: '<i class="fa-solid fa-brain fa-spin fa-2x ms-2 me-3 ML"></i>', name: 'MACHINE LEARNING' }
+    { icon: '<i class="fa-solid fa-file-excel fa-shake fa-2x ms-2 me-3 EXCEL"></i>', name: 'EXCEL' },
+    { icon: '<i class="fa-solid fa-chart-bar fa-shake fa-2x ms-2 me-3 POWERBI"></i>', name: 'MICROSOFT POWERBI' },
+    { icon: '<i class="fa-solid fa-brain fa-shake fa-2x ms-2 me-3 ML"></i>', name: 'MACHINE LEARNING' }
 ];
 let box = '';
 for (let i = 0; i < mySkills.length; i++) {
@@ -65,6 +65,13 @@ let projects = [
         projectPreview: 'https://app.powerbi.com/view?r=eyJrIjoiNmM4Yjg5Y2UtM2Y1Zi00OGRhLWEzZGItYjYwMzkwZGQ2ZDJhIiwidCI6IjU3MjViNzliLTYyOTgtNDAxMi1iODZlLWE5Zjk5NWY0OTM2MyJ9',
         // code: 'https://github.com/Mohamed-AbdElGhaffar-AbdElGhaffar/E-commerce-website.git',
         skills: ['PowerBI']
+    },
+    {
+        name: 'B&J Biscuit Excel-Dashboard',
+        image: 'imgs/B&J Biscuit.png',
+        projectPreview: 'https://docs.google.com/spreadsheets/d/1OwBx1VnkdvmZuAbchJowKlzZOeNg263H/edit?gid=1576855265#gid=1576855265',
+        //code: 'https://colab.research.google.com/drive/16wMXVNZZ0oZ657Fz7cn5k__uWXAbBHWX?usp=sharing',
+        skills: ['Excel']
     },
     {
         name: 'Road Accident Preprocessed Excel-Dashboard',
